@@ -5,7 +5,6 @@ __pycache__/
 .env
 *.egg-info/
 models/           # large files
-data/
 *.trt             # engines are huge
 *.engine
 *.onnx
