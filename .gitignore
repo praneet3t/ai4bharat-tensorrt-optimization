@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.egg-info/
+models/           # large files
+data/
+*.trt             # engines are huge
+*.engine
+*.onnx
+*.data
+*.bin
+*.onnx.data
