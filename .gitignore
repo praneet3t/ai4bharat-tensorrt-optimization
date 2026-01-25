@@ -1,13 +1,57 @@
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.env
 *.egg-info/
-models/           # large files
-*.trt             # engines are huge
+.env
+
+# Model files (large)
+models/
+*.trt
 *.engine
 *.onnx
-*.data
-*.bin
 *.onnx.data
+*.bin
+*.data
+*.pt
+*.pth
+*.safetensors
+
+# Audio files (large)
+#*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+*.wma
+data/sample_audio/
+src/data/sample_audio/
+
+# Profiler and trace files (large)
+*.json
+!config.json
+!package.json
+!tokenizer_config.json
+!preprocessor_config.json
+!alphabet.json
+!vocab.json
+!special_tokens_map.json
+pytorch_trace.json
+profiler_report.txt
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keep result images (PNGs are fine)
+# *.png - commented out to keep result plots
