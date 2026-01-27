@@ -52,6 +52,6 @@ profiler_report.txt
 # OS files
 .DS_Store
 Thumbs.db
-
+src/data/benchmark_wavs
 # Keep result images (PNGs are fine)
 # *.png - commented out to keep result plots
