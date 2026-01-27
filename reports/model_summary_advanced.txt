@@ -1,0 +1,27 @@
+Model Producer: pytorch
+Opset Version: 17
+Graph Name: main_graph
+
+--- INPUTS ---
+input_values: Error Parsing
+
+--- OUTPUTS ---
+logits: Error Parsing
+
+--- NODE STATS ---
+Constant: 869
+Unsqueeze: 265
+Add: 227
+MatMul: 194
+Concat: 192
+Reshape: 192
+Transpose: 137
+Mul: 112
+LayerNormalization: 57
+Shape: 48
+Gather: 48
+Div: 32
+Erf: 32
+Softmax: 24
+Conv: 8
+Slice: 1
